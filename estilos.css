@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F6F2D4;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+main {
+    margin: 10px;
+}
+
+nav {
+    background-color: #6998AB;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 51, 68, 0.7);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: rgba(255, 254, 177, 0.3);
+    text-align: center;
+    border-radius: 10px 20px;
+    margin-bottom: 30px;
+    
+}
+
+div+div {
+    float: right;
+    background-color: rgba(255, 51, 68, 0.3);
+border-radius: 30px 20px;
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 254, 177, 0.3);
+    clear: both;
+    text-align: center;
+    border-radius: 40px 40px;
+    margin: 20px;
+}
